@@ -322,7 +322,7 @@ export default function ShowSchools() {
                     <div key={s.id} className="schoolCard">
                       {s.image && (
                         <div className="schoolCardImage" style={{ position: 'relative', width: '100%', height: 180, borderRadius: 12, overflow: 'hidden', marginBottom: 12 }}>
-                          <Image src={s.image} alt={`${s.name} image`} fill priority sizes="(max-width: 768px) 100vw, 33vw" style={{ objectFit: 'cover' }} />
+                          <Image src={s.image} alt={`${s.name} image`} fill priority sizes="(max-width: 768px) 100vw, 33vw" style={{ objectFit: 'cover' }} unoptimized />
                         </div>
                       )}
                       <div className="schoolCardHeader">
