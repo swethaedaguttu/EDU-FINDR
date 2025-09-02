@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+out/
+.turbo/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Env files (keep secrets out of git)
+.env
+.env.*
+.env.local
+
+# Testing/coverage
+coverage/
+
+# Vercel / deployment
+.vercel/
+
+# Temporary uploads/cache
+public/temp/
+
+# Build artifacts
+dist/
+build/
+
