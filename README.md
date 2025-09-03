@@ -2,6 +2,8 @@
 
 A mini Next.js + MySQL app to add and browse schools with image uploads, validation, search and pagination.
 
+Live : https://edu-findr.onrender.com
+
 ## Features
 - Add School form using `react-hook-form` with client/server validation
 - Image upload + compression (Sharp), stored in `public/schoolImages`
